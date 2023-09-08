@@ -1,0 +1,11 @@
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: aliceblue;
+    color: rgb(44, 44, 44);
+    font-weight: bold;
+    text-align: center;
+    height: 10vh;
+}
