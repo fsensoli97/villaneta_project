@@ -1,11 +1,20 @@
-.title {
+.titleContainer {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-    background-color: aliceblue;
-    color: rgb(44, 44, 44);
+    row-gap: 3vh;
+    padding: 5vh 0;
+}
+
+.mainTitle {
+    color: white;
+    font-size: 7vh;
     font-weight: bold;
-    text-align: center;
-    height: 10vh;
+}
+
+.subtitle {
+    color: white;
+    font-size: 5vh;
+    font-weight: bold;
 }

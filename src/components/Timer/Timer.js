@@ -1,46 +1,35 @@
 import { useEffect, useState } from "react"
+import './Timer.css'
 
 export default function Timer() {
-    let [timer, setTimer] = useState(0)
+    const [timer, setTimer] = useState([0, 0, 0, 0]);
 
     useEffect(() => {
         setInterval(() => {
-            setTimer(timer + 1)
-        }, 1000)
-    })
-       
-    /*
-    const currentdate = new Date(); 
-    const day = currentdate.getDate()
-    const month = currentdate.getMonth()
-    const year = currentdate.getFullYear()
-    const hours = currentdate.getHours()
-    const minutes = currentdate.getMinutes()
-    const seconds = currentdate.getSeconds()
+            const now = new Date();
+            const partyTime = new Date('11/04/2023');
+            const totSeconds =  parseInt(Math.abs(partyTime - now) / 1000);
 
-    const partyDay = 4
-    const partyMonth = 11
-    const partyYear = 2023
-    const partyHours = 0
-    const partyMinutes = 0
-    const partySeconds = 0
-    */
-    const date1 = new Date();
-    const date2 = new Date('11/04/2023');
-    const diffTime = parseInt(Math.abs(date2 - date1));
-    const diffSecs = parseInt(diffTime / 1000);
-    const secs = diffSecs % 60;
-    const diffMinutes = parseInt(diffSecs / 60);
-    const minutes = diffMinutes % 60;
-    const diffHours = parseInt(diffMinutes / 60);
-    const hours = diffMinutes % 24;
-    const days = parseInt(diffHours / 24);
+            const days = Math.floor(totSeconds / (24 * 3600));
+            const hours = Math.floor((totSeconds - (days * 24 * 3600)) / 3600);
+            const minutes = Math.floor((totSeconds - (days * 24 * 3600) - (hours * 3600)) / 60);
+            const seconds = Math.floor(totSeconds - (days * 24 * 3600) - (hours * 3600) - (minutes * 60));
 
-    console.log(days + ':' + hours + ':' + minutes + ':' + secs)
+            setTimer([days, hours, minutes, seconds]);
+        }, 1000);
+    }, []);
 
     return (
-        <>
-            <div>{ timer }</div>
+        <>    
+            <div className="timerContainer">
+                <div className="timerTitle">Next event starts in:</div>
+                <div>
+                    { String(timer[0]).padStart(2, '0') + "d " } 
+                    { String(timer[1]).padStart(2, '0') + "h "} 
+                    { String(timer[2]).padStart(2, '0') + "m "} 
+                    { String(timer[3]).padStart(2, '0') + "s "} 
+                </div>
+            </div>
         </>
     )
 }
