@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/villaneta_project/static/css/main.a00b8241.css",
+    "main.js": "/villaneta_project/static/js/main.db9681ae.js",
+    "static/js/787.538b84a3.chunk.js": "/villaneta_project/static/js/787.538b84a3.chunk.js",
+    "index.html": "/villaneta_project/index.html",
+    "main.a00b8241.css.map": "/villaneta_project/static/css/main.a00b8241.css.map",
+    "main.db9681ae.js.map": "/villaneta_project/static/js/main.db9681ae.js.map",
+    "787.538b84a3.chunk.js.map": "/villaneta_project/static/js/787.538b84a3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a00b8241.css",
+    "static/js/main.db9681ae.js"
+  ]
+}
