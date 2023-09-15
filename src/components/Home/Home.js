@@ -1,10 +1,13 @@
 import "./Home.css"
 import Timer from "../Timer/Timer"
 import HamburgerMenu from "../HamburgerMenu/HamburgerMenu"
+import Logo from "../Logo/Logo"
 
 export default function Home() {
     return (
         <>
+            <HamburgerMenu></HamburgerMenu>
+            <Logo></Logo>
             <div className="titleContainer">
                 <div className="mainTitle">
                     Villaneta project
@@ -13,8 +16,11 @@ export default function Home() {
                     Join our community
                 </div>
             </div>
-            <HamburgerMenu></HamburgerMenu>
             <Timer></Timer>
+            <div className="animationContainer">
+                <div className="firstLine"></div>
+                <div className="secondLine"></div>
+            </div>
         </>
     )
 } 

@@ -3,29 +3,32 @@
     top: 0;
     left: 0;
     color: white;
-    width: 8vw;
+    transition: 1s;
 }
 
 .hamburgerMenu {
     padding: 1.2vh 1.2vh;
     cursor: pointer;
-    width: 100%;
-    height: 100%;
+    width: 9vw;
+    height: 9vw;
+    transition: 1s;
 }
 
 .menuLink {
     color: white;
     text-decoration: none;
     cursor: pointer;
+    max-width: 100%;
 }
 
 .menuItemsContainer {
-    
+    transition: 1s;
+    padding: 1.5vh 0;
 }
 
 .menuItem {
-    width: fit-content;
-    padding: 2vh 5vw;
+    padding: 3vh 5vw;
+    max-width: 100%;
     border: solid 1px rgb(107, 107, 107);
     background-color: rgb(47, 47, 47);
 }

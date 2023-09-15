@@ -27,13 +27,18 @@ export default function HamburgerMenu() {
     });
 
     return(
-    <div ref={hamburgerMenu} className="menuContainer">
-        <FontAwesomeIcon className="hamburgerMenu" size="2x" icon={faBars} onClick={handleClick}></FontAwesomeIcon>
-        <div className="menuItemsContainer">
-            <div className="menuItem" style={menuVisible ? {display: "block"} : {display: "none"}}><Link className="menuLink" to="/contacts">Contacts</Link></div>
-            <div className="menuItem" style={menuVisible ? {display: "block"} : {display: "none"}}><Link className="menuLink" to="/contacts">Contacts</Link></div>
-            <div className="menuItem" style={menuVisible ? {display: "block"} : {display: "none"}}><Link className="menuLink" to="/contacts">Contacts</Link></div>
-        </div>        
-    </div>
+        <>
+            <div ref={hamburgerMenu} className="menuContainer" style={menuVisible ? {width: "100%"} : {width: "8vw"}}>
+                <FontAwesomeIcon className="hamburgerMenu" size="2x" icon={faBars} onClick={handleClick}></FontAwesomeIcon>
+                <div className="menuItemsContainer">
+                    <div className="menuItem" style={menuVisible ? {display: "block"} : {display: "none"}}><Link className="menuLink" to="/contacts">Contacts</Link></div>
+                    <div className="menuItem" style={menuVisible ? {display: "block"} : {display: "none"}}><Link className="menuLink" to="/contacts">Contacts</Link></div>
+                    <div className="menuItem" style={menuVisible ? {display: "block"} : {display: "none"}}><Link className="menuLink" to="/contacts">Contacts</Link></div>
+                    <div className="menuItem" style={menuVisible ? {display: "block"} : {display: "none"}}><Link className="menuLink" to="/contacts">Contacts</Link></div>
+                    <div className="menuItem" style={menuVisible ? {display: "block"} : {display: "none"}}><Link className="menuLink" to="/contacts">Contacts</Link></div>
+                    <div className="menuItem" style={menuVisible ? {display: "block"} : {display: "none"}}><Link className="menuLink" to="/contacts">Contacts</Link></div>
+                </div>        
+            </div>
+        </>
     );
 }
