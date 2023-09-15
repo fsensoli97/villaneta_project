@@ -8,8 +8,8 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home></Home>}></Route>
-          <Route path="/contacts" element={<Contacts></Contacts>}></Route>
+          <Route path="/villaneta_project/" element={<Home></Home>}></Route>
+          <Route path="/villaneta_project/contacts" element={<Contacts></Contacts>}></Route>
         </Routes>
       </BrowserRouter>
     </>
