@@ -16,7 +16,7 @@ export default function Home() {
                     Join our community
                 </div>
             </div>
-            <Timer></Timer>
+            <Timer timerText={'Next event starts in:'} dueDate={'11/04/2023'}></Timer>
             <div className="animationContainer">
                 <div className="firstLine"></div>
                 <div className="secondLine"></div>

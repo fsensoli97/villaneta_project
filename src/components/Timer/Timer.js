@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react"
 import './Timer.css'
 
-export default function Timer() {
+export default function Timer({timerText, dueDate}) {
     const [timer, setTimer] = useState([0, 0, 0, 0]);
 
     useEffect(() => {
         setInterval(() => {
             const now = new Date();
-            const partyTime = new Date('11/04/2023');
+            const partyTime = new Date(dueDate);
             const totSeconds =  parseInt(Math.abs(partyTime - now) / 1000);
 
             const days = Math.floor(totSeconds / (24 * 3600));
@@ -17,12 +17,12 @@ export default function Timer() {
 
             setTimer([days, hours, minutes, seconds]);
         }, 1000);
-    }, []);
+    }, [dueDate]);
 
     return (
         <>    
             <div className="timerContainer">
-                <div className="timerTitle">Next event starts in:</div>
+                <div className="timerTitle">{timerText}</div>
                 <div>
                     { String(timer[0]).padStart(2, '0') + "d " } 
                     { String(timer[1]).padStart(2, '0') + "h "} 
