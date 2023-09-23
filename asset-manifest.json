@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/villaneta_project/static/css/main.796e8c83.css",
-    "main.js": "/villaneta_project/static/js/main.8cba9146.js",
+    "main.css": "/villaneta_project/static/css/main.0bd911fa.css",
+    "main.js": "/villaneta_project/static/js/main.5f540bbc.js",
     "static/js/27.e78e3e17.chunk.js": "/villaneta_project/static/js/27.e78e3e17.chunk.js",
     "static/media/villanetaLogo.svg": "/villaneta_project/static/media/villanetaLogo.6fe2b763265779c2728d85294414511f.svg",
     "index.html": "/villaneta_project/index.html"
   },
   "entrypoints": [
-    "static/css/main.796e8c83.css",
-    "static/js/main.8cba9146.js"
+    "static/css/main.0bd911fa.css",
+    "static/js/main.5f540bbc.js"
   ]
 }
