@@ -1,0 +1,18 @@
+.galleryRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 3vw;
+    row-gap: 3vw;
+    padding: 2vh 4vw;
+}
+
+.image {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.editionLabel {
+    color: white;
+}

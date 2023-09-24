@@ -18,7 +18,9 @@ export default function Location() {
                 <iframe 
                     className="mapsLocation"
                     title="mapsLocation" 
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d164535.42735697742!2d11.897899861431775!3d43.928502455868774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sit!2sit!4v1695473110515!5m2!1sit!2sit"
+                    src="https://www.google.com/maps/d/embed?mid=1MIHx-2EGniHXdeOKOxef6ULf7y_Vag4&ehbc=2E312F"
+                    width="600"
+                    height="400"
                     allowfullscreen=""
                     loading="lazy" 
                     referrerpolicy="no-referrer-when-downgrade">
