@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/villaneta_project/static/css/main.0bd911fa.css",
-    "main.js": "/villaneta_project/static/js/main.5f540bbc.js",
-    "static/js/27.e78e3e17.chunk.js": "/villaneta_project/static/js/27.e78e3e17.chunk.js",
+    "main.css": "/villaneta_project/static/css/main.fe33e03c.css",
+    "main.js": "/villaneta_project/static/js/main.1baad33d.js",
+    "static/js/27.9240ef66.chunk.js": "/villaneta_project/static/js/27.9240ef66.chunk.js",
+    "static/media/WhatsApp Image 2023-09-24 at 23.23.55 (1).jpeg": "/villaneta_project/static/media/WhatsApp Image 2023-09-24 at 23.23.55 (1).be8ba686bd9011f460ab.jpeg",
+    "static/media/WhatsApp Image 2023-09-24 at 23.24.01 (2).jpeg": "/villaneta_project/static/media/WhatsApp Image 2023-09-24 at 23.24.01 (2).f1a1f471ea79ea7f8ad3.jpeg",
+    "static/media/WhatsApp Image 2023-09-24 at 23.24.01 (3).jpeg": "/villaneta_project/static/media/WhatsApp Image 2023-09-24 at 23.24.01 (3).75f3470a607a6daf4ec2.jpeg",
+    "static/media/WhatsApp Image 2023-09-24 at 23.23.55.jpeg": "/villaneta_project/static/media/WhatsApp Image 2023-09-24 at 23.23.55.a7ae280ad8d0ec320166.jpeg",
     "static/media/villanetaLogo.svg": "/villaneta_project/static/media/villanetaLogo.6fe2b763265779c2728d85294414511f.svg",
     "index.html": "/villaneta_project/index.html"
   },
   "entrypoints": [
-    "static/css/main.0bd911fa.css",
-    "static/js/main.5f540bbc.js"
+    "static/css/main.fe33e03c.css",
+    "static/js/main.1baad33d.js"
   ]
 }
