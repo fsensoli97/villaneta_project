@@ -1,0 +1,41 @@
+.popupContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    z-index: 1000;
+}
+
+.imageContainer {
+    border: solid 1px rgb(184, 184, 184);
+}
+
+.pic {
+    max-width: 100%;
+}
+
+.closeButton {
+    position: absolute;
+    top: 2vw;
+    right: 2vw;
+    z-index: 1001;
+}
+
+.prevButton {
+    position: absolute;
+    top: 49%;
+    left: 2vw;
+    z-index: 1001;
+}
+
+.nextButton {
+    position: absolute;
+    top: 49%;
+    right: 2vw;
+    z-index: 1001;
+}
