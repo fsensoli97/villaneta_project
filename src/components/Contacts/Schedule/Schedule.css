@@ -1,4 +1,4 @@
-.contactsContainer {
+.scheduleContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,7 +6,7 @@
     row-gap: 4vh;
 }
 
-.contactElement {
+.scheduleElement {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,12 +15,12 @@
     padding: 1vh 0;
 }
 
-.contactType {
+.scheduleTime {
     color: white;
     font-size: 4.5vw;
 }
 
-.contactValue {
+.scheduleEvent {
     color: white;
     font-size: 5vw;
 }

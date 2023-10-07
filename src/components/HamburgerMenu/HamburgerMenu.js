@@ -33,9 +33,8 @@ export default function HamburgerMenu() {
                 <div className="menuItemsContainer">
                     <div className="menuItem" style={menuVisible ? {display: "block"} : {display: "none"}}><Link className="menuLink" to="/villaneta_project/">Homepage</Link></div>
                     <div className="menuItem" style={menuVisible ? {display: "block"} : {display: "none"}}><Link className="menuLink" to="/villaneta_project/location">Location</Link></div>
-                    <div className="menuItem" style={menuVisible ? {display: "block"} : {display: "none"}}><Link className="menuLink" to="/villaneta_project/contacts">Contacts</Link></div>
+                    <div className="menuItem" style={menuVisible ? {display: "block"} : {display: "none"}}><Link className="menuLink" to="/villaneta_project/schedule">Schedule</Link></div>
                     <div className="menuItem" style={menuVisible ? {display: "block"} : {display: "none"}}><Link className="menuLink" to="/villaneta_project/previous_editions">Previous Editions</Link></div>
-                    <div className="menuItem" style={menuVisible ? {display: "block"} : {display: "none"}}><Link className="menuLink" to="/villaneta_project/contacts">Contacts</Link></div>
                     <div className="menuItem" style={menuVisible ? {display: "block"} : {display: "none"}}><Link className="menuLink" to="/villaneta_project/contacts">Contacts</Link></div>
                 </div>        
             </div>
