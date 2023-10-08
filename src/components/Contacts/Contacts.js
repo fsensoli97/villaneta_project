@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
+import { faMailBulk, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import HamburgerMenu from '../HamburgerMenu/HamburgerMenu';
 import Logo from '../Logo/Logo';
 import './Contacts.css'
@@ -25,6 +26,38 @@ export default function Contacts() {
                     </div>
                     <div className="contactValue" style={{color: darkMode ? "white" : "black"}}>
                         villaneta_proj@villaneta_proj.com
+                    </div>
+                </div>
+                <div className="contactElement">
+                    <div className="contactType" style={{color: darkMode ? "white" : "black"}}>
+                    <FontAwesomeIcon icon={faPhone} size="2x"></FontAwesomeIcon>
+                    </div>
+                    <div className="contactValue" style={{color: darkMode ? "white" : "black"}}>
+                        123456789
+                    </div>
+                </div>
+                <div className="contactElement">
+                    <div className="contactType" style={{color: darkMode ? "white" : "black"}}>
+                    <FontAwesomeIcon icon={faFacebook} size="2x"></FontAwesomeIcon>
+                    </div>
+                    <div className="contactValue" style={{color: darkMode ? "white" : "black"}}>
+                        Villaneta/fb
+                    </div>
+                </div>
+                <div className="contactElement">
+                    <div className="contactType" style={{color: darkMode ? "white" : "black"}}>
+                    <FontAwesomeIcon icon={faInstagram} size="2x"></FontAwesomeIcon>
+                    </div>
+                    <div className="contactValue" style={{color: darkMode ? "white" : "black"}}>
+                        @Villaneta
+                    </div>
+                </div>
+                <div className="contactElement">
+                    <div className="contactType" style={{color: darkMode ? "white" : "black"}}>
+                    <FontAwesomeIcon icon={faTwitter} size="2x"></FontAwesomeIcon>
+                    </div>
+                    <div className="contactValue" style={{color: darkMode ? "white" : "black"}}>
+                        Villaneta/twitter
                     </div>
                 </div>
             </div>

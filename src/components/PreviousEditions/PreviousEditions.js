@@ -209,7 +209,6 @@ export default function PreviousEditions() {
     ];
 
     const allPics = edition1Pics.concat(edition2Pics, edition3Pics);
-    console.log(allPics)
 
     function handleClickImage(image) {
         setCurrentImage(image);
