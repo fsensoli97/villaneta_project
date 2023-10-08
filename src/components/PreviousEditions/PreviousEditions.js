@@ -107,7 +107,7 @@ export default function PreviousEditions() {
     const darkMode = useContext(ThemeContext);
 
     let edition1Pics = [
-        img18
+        
     ];
 
     let edition2Pics = [
@@ -209,6 +209,7 @@ export default function PreviousEditions() {
     ];
 
     const allPics = edition1Pics.concat(edition2Pics, edition3Pics);
+    console.log(allPics)
 
     function handleClickImage(image) {
         setCurrentImage(image);
