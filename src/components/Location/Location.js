@@ -2,14 +2,18 @@ import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
 import Logo from "../Logo/Logo";
 import Timer from "../Timer/Timer";
 import './Location.css'
+import { useContext } from "react";
+import { ThemeContext } from "../../App";
 
 export default function Location() {
+    const darkMode = useContext(ThemeContext);
+
     return(
         <>
             <HamburgerMenu></HamburgerMenu>
             <Logo></Logo>
             <div className="titleContainer">
-                <div className="mainTitle">
+                <div className="mainTitle" style={{color: darkMode ? "white" : "black"}}>
                     Villaneta location
                 </div>
             </div>

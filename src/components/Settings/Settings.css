@@ -1,0 +1,21 @@
+.toggleContainer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 2vh 0;
+    border: solid 1px grey;
+}
+
+.themeType, .toggleElem {
+    flex: 1;
+}
+
+.toggleElem {
+    display: flex;
+    justify-content: center;
+}
+
+.themeType {
+    font-size: 5vw;
+}

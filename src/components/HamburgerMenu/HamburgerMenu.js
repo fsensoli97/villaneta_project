@@ -2,12 +2,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useContext } from "react";
+import { ThemeContext } from "../../App";
 import './HamburgerMenu.css'
 
 export default function HamburgerMenu() {
     const [menuVisible, setMenuVisible] = useState(false);
     const hamburgerMenu = useRef();
+    const darkMode = useContext(ThemeContext);
 
     function handleClick() {
         setMenuVisible(!menuVisible);
@@ -29,13 +31,14 @@ export default function HamburgerMenu() {
     return(
         <>
             <div ref={hamburgerMenu} className="menuContainer" style={menuVisible ? {width: "100%"} : {width: "8vw"}}>
-                <FontAwesomeIcon className="hamburgerMenu" size="2x" icon={faBars} onClick={handleClick}></FontAwesomeIcon>
+                <FontAwesomeIcon className="hamburgerMenu" size="2x" icon={faBars} onClick={handleClick} style={{color: darkMode ? "white" : "black"}}></FontAwesomeIcon>
                 <div className="menuItemsContainer">
-                    <div className="menuItem" style={menuVisible ? {display: "block"} : {display: "none"}}><Link className="menuLink" to="/villaneta_project/">Homepage</Link></div>
-                    <div className="menuItem" style={menuVisible ? {display: "block"} : {display: "none"}}><Link className="menuLink" to="/villaneta_project/location">Location</Link></div>
-                    <div className="menuItem" style={menuVisible ? {display: "block"} : {display: "none"}}><Link className="menuLink" to="/villaneta_project/schedule">Schedule</Link></div>
-                    <div className="menuItem" style={menuVisible ? {display: "block"} : {display: "none"}}><Link className="menuLink" to="/villaneta_project/previous_editions">Previous Editions</Link></div>
-                    <div className="menuItem" style={menuVisible ? {display: "block"} : {display: "none"}}><Link className="menuLink" to="/villaneta_project/contacts">Contacts</Link></div>
+                    <div className="menuItem" style={menuVisible ? {display: "block", borderTop: "solid 2px grey", backgroundColor : darkMode ? "rgb(47, 47, 47)" : "rgb(247, 247, 247)"} : {display: "none"}}><Link className="menuLink" to="/villaneta_project/" style={{color: darkMode ? "white" : "black"}}>Homepage</Link></div>
+                    <div className="menuItem" style={menuVisible ? {display: "block", backgroundColor : darkMode ? "rgb(47, 47, 47)" : "rgb(247, 247, 247)"} : {display: "none"}}><Link className="menuLink" to="/villaneta_project/location" style={{color: darkMode ? "white" : "black"}}>Location</Link></div>
+                    <div className="menuItem" style={menuVisible ? {display: "block", backgroundColor : darkMode ? "rgb(47, 47, 47)" : "rgb(247, 247, 247)"} : {display: "none"}}><Link className="menuLink" to="/villaneta_project/schedule" style={{color: darkMode ? "white" : "black"}}>Schedule</Link></div>
+                    <div className="menuItem" style={menuVisible ? {display: "block", backgroundColor : darkMode ? "rgb(47, 47, 47)" : "rgb(247, 247, 247)"} : {display: "none"}}><Link className="menuLink" to="/villaneta_project/gallery" style={{color: darkMode ? "white" : "black"}}>Gallery</Link></div>
+                    <div className="menuItem" style={menuVisible ? {display: "block", backgroundColor : darkMode ? "rgb(47, 47, 47)" : "rgb(247, 247, 247)"} : {display: "none"}}><Link className="menuLink" to="/villaneta_project/contacts" style={{color: darkMode ? "white" : "black"}}>Contacts</Link></div>
+                    <div className="menuItem" style={menuVisible ? {display: "block", borderBottom: "solid 2px grey", backgroundColor : darkMode ? "rgb(47, 47, 47)" : "rgb(247, 247, 247)"} : {display: "none"}}><Link className="menuLink" to="/villaneta_project/settings" style={{color: darkMode ? "white" : "black"}}>Settings</Link></div>
                 </div>        
             </div>
         </>

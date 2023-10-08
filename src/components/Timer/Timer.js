@@ -1,8 +1,11 @@
 import { useEffect, useState } from "react"
 import './Timer.css'
+import { useContext } from "react";
+import { ThemeContext } from "../../App";
 
 export default function Timer({timerText, dueDate}) {
     const [timer, setTimer] = useState([0, 0, 0, 0]);
+    const darkMode = useContext(ThemeContext);
 
     useEffect(() => {
         setInterval(() => {
@@ -21,7 +24,7 @@ export default function Timer({timerText, dueDate}) {
 
     return (
         <>    
-            <div className="timerContainer">
+            <div className="timerContainer" style={{color: darkMode ? "white" : "black"}}>
                 <div className="timerTitle">{timerText}</div>
                 <div>
                     { String(timer[0]).padStart(2, '0') + "d " } 
