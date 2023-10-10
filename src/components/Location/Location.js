@@ -19,6 +19,7 @@ export default function Location() {
             </div>
             <Timer timerText={'To be revealed in:'} dueDate={'10/20/2023'}></Timer>
             <div className="mapsContainer">
+                <div className="mapsTitle" style={{backgroundColor: darkMode ? "black" : "white"}}></div>
                 <iframe 
                     className="mapsLocation"
                     title="mapsLocation" 

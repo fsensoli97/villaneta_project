@@ -1,4 +1,4 @@
-import logo from '../../villanetaLogo.svg'
+import logo from '../../villanetaLogo.png'
 import './Logo.css'
 
 export default function Logo() {

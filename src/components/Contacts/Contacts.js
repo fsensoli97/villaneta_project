@@ -22,7 +22,7 @@ export default function Contacts() {
             <div className="contactsContainer">
                 <div className="contactElement">
                     <div className="contactType" style={{color: darkMode ? "white" : "black"}}>
-                    <FontAwesomeIcon icon={faMailBulk} size="2x"></FontAwesomeIcon>
+                    <FontAwesomeIcon icon={faMailBulk} size="2x" onClick={() => window.location = 'mailto:yourmail@domain.com'}></FontAwesomeIcon>
                     </div>
                     <div className="contactValue" style={{color: darkMode ? "white" : "black"}}>
                         villaneta_proj@villaneta_proj.com
@@ -30,7 +30,7 @@ export default function Contacts() {
                 </div>
                 <div className="contactElement">
                     <div className="contactType" style={{color: darkMode ? "white" : "black"}}>
-                    <FontAwesomeIcon icon={faPhone} size="2x"></FontAwesomeIcon>
+                    <a href="tel:123456789"><FontAwesomeIcon icon={faPhone} size="2x"></FontAwesomeIcon></a>
                     </div>
                     <div className="contactValue" style={{color: darkMode ? "white" : "black"}}>
                         123456789
@@ -38,7 +38,7 @@ export default function Contacts() {
                 </div>
                 <div className="contactElement">
                     <div className="contactType" style={{color: darkMode ? "white" : "black"}}>
-                    <FontAwesomeIcon icon={faFacebook} size="2x"></FontAwesomeIcon>
+                    <a target="_blank" rel='noopener noreferrer' href="https://www.facebook.com/"><FontAwesomeIcon icon={faFacebook} size="2x"></FontAwesomeIcon></a>
                     </div>
                     <div className="contactValue" style={{color: darkMode ? "white" : "black"}}>
                         Villaneta/fb
@@ -46,7 +46,7 @@ export default function Contacts() {
                 </div>
                 <div className="contactElement">
                     <div className="contactType" style={{color: darkMode ? "white" : "black"}}>
-                    <FontAwesomeIcon icon={faInstagram} size="2x"></FontAwesomeIcon>
+                    <a target="_blank" rel='noopener noreferrer' href="https://www.facebook.com/"><FontAwesomeIcon icon={faInstagram} size="2x"></FontAwesomeIcon></a>
                     </div>
                     <div className="contactValue" style={{color: darkMode ? "white" : "black"}}>
                         @Villaneta
@@ -54,7 +54,7 @@ export default function Contacts() {
                 </div>
                 <div className="contactElement">
                     <div className="contactType" style={{color: darkMode ? "white" : "black"}}>
-                    <FontAwesomeIcon icon={faTwitter} size="2x"></FontAwesomeIcon>
+                    <a target="_blank" rel='noopener noreferrer' href="https://www.facebook.com/"><FontAwesomeIcon icon={faTwitter} size="2x"></FontAwesomeIcon></a>
                     </div>
                     <div className="contactValue" style={{color: darkMode ? "white" : "black"}}>
                         Villaneta/twitter
