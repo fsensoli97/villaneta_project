@@ -1,0 +1,27 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3.5vh;
+    padding: 0 15%;
+}
+
+.loginInput {
+    text-align: center;
+    padding: 1vh 0;
+    background-color: whitesmoke;
+    border: solid 1px gray;
+}
+
+.loginButton {
+    width: fit-content;
+    padding: 1vh 5vw;
+    margin: 2vh 0;
+    background-color: whitesmoke;
+    border: solid 1px gray;
+}
+
+.createAccount {
+    font-size: small;
+    text-decoration: underline;
+}

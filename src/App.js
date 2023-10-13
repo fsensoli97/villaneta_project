@@ -6,9 +6,12 @@ import Contacts from './components/Contacts/Contacts';
 import PreviousEditions from './components/PreviousEditions/PreviousEditions';
 import Schedule from './components/Contacts/Schedule/Schedule';
 import Settings from './components/Settings/Settings';
+import Login from './components/Login/Login';
 import { createContext, useState } from 'react';
 
 function App() {
+  const [token, setToken] = useState(JSON.parse(sessionStorage.getItem("token")));
+
   const [darkMode, setDarkMode] = useState(JSON.parse(localStorage.getItem("darkMode")));
   document.body.style.backgroundColor = darkMode ? "rgb(39, 39, 39)" : "white";
 
@@ -21,6 +24,7 @@ function App() {
           <Route path="/villaneta_project/schedule" element={<Schedule></Schedule>}></Route>
           <Route path="/villaneta_project/gallery" element={<PreviousEditions></PreviousEditions>}></Route>
           <Route path="/villaneta_project/contacts" element={<Contacts></Contacts>}></Route>
+          <Route path="/villaneta_project/community" element={<Login token={token} setToken={setToken}></Login>}></Route>
           <Route path="/villaneta_project/settings" element={<Settings setDarkMode={setDarkMode}></Settings>}></Route>
         </Routes>
       </BrowserRouter>
