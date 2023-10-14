@@ -1,0 +1,60 @@
+.inputFileContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.chooseFile {
+    text-decoration: underline;
+    background-color: transparent;
+    z-index: 1;
+    padding: 2vh 0;
+}
+
+.inputFile {
+    display: none;
+}
+
+.cropperContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 10%;
+}
+.cropper {
+    height: 30vh;
+    background-color: transparent;
+}
+
+.cropButtonContainer {
+    margin-top: 30vh;
+    display: flex;
+    justify-content: center;
+}
+
+.saveButtonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.cropButton, .saveButton {
+    width: fit-content;
+    padding: 1vh 5vw;
+    margin: 2vh 0;
+    background-color: whitesmoke;
+    border: solid 1px gray;
+}
+
+.screenshotContainer {
+    margin-top: 4.5vh;
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    padding: 0 30vw;
+}
+
+.screenshot {
+    border-radius: 50%;
+    max-width: 100%;
+    object-fit: fill;
+    border: solid 1px gray;
+}
