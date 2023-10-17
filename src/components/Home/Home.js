@@ -14,7 +14,7 @@ export default function Home() {
             <Logo></Logo>
             <div className="titleContainer">
                 <div className="mainTitle" style={{color: darkMode ? "white" : "black"}}>
-                    Villaneta project
+                    The Villaneta
                 </div>
                 <div className="subtitle" style={{color: darkMode ? "white" : "black"}}>
                     Join our community

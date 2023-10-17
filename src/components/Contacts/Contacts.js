@@ -22,10 +22,10 @@ export default function Contacts() {
             <div className="contactsContainer">
                 <div className="contactElement">
                     <div className="contactType" style={{color: darkMode ? "white" : "black"}}>
-                    <FontAwesomeIcon icon={faMailBulk} size="2x" onClick={() => window.location = 'mailto:yourmail@domain.com'}></FontAwesomeIcon>
+                    <FontAwesomeIcon icon={faMailBulk} size="2x" onClick={() => window.location = 'mailto:villanetagroup@gmail.com'}></FontAwesomeIcon>
                     </div>
                     <div className="contactValue" style={{color: darkMode ? "white" : "black"}}>
-                        villaneta_proj@villaneta_proj.com
+                        villanetagroup@gmail.com
                     </div>
                 </div>
                 <div className="contactElement">
