@@ -113,6 +113,7 @@ export default function Schedule() {
                         Departure
                     </div>
                 </div>
+                <br></br>
             </div>
         </>
     );
