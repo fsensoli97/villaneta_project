@@ -42,6 +42,30 @@ export default function Home() {
                 </video>
             </div>   
 
+            <div className="sponsorTitle" style={{color: darkMode ? "white" : "black"}}>
+                Local Partners
+            </div>
+            <div className="sponsorRowContainer">
+                <div className="sponsorContainer">
+                    <img className="sponsorImage" src={sponsor1} alt="example"></img>
+                </div>
+                <div className="sponsorContainer">
+                    <img className="sponsorImage" src={sponsor2} alt="example"></img>
+                </div>
+                <div className="sponsorContainer">
+                    <img className="sponsorImage" src={sponsor3} alt="example"></img>
+                </div>
+                <div className="sponsorContainer">
+                    <img className="sponsorImage" src={sponsor4} alt="example"></img>
+                </div>
+                <div className="sponsorContainer">
+                    <img className="sponsorImage" src={sponsor5} alt="example"></img>
+                </div>
+            </div> 
+
+            <div className="sponsorTitle" style={{color: darkMode ? "white" : "black"}}>
+                Official Partners
+            </div>
             <div className="sponsorRowContainer">
                 <div className="sponsorContainer">
                     <img className="sponsorImage" src={sponsor1} alt="example"></img>
