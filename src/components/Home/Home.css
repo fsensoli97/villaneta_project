@@ -1,4 +1,6 @@
 .titleContainer {
+    font-family: Cambria;
+    font-weight: bold;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,12 +14,15 @@
     color: white;
     font-size: 7vw;
     font-weight: bold;
+    font-family: Cambria;
+    text-shadow: 1px 1px 2px black;
 }
 
 .subtitle {
     color: white;
     font-size: 5vw;
     font-weight: bold;
+    font-family: Cambria;
 }
 
 .animationContainer {
@@ -62,6 +67,7 @@
     padding: 0 5%;
     height: 60vh;
     width: 90%;
+    margin-bottom: 7vh;
 }
 
 .homeVideo {
@@ -70,11 +76,20 @@
     object-fit: contain;
 }
 
-.sponsorRowContainer {
+.partnerRowContainer {
     display: flex;
     column-gap: 3.5vw;
     padding: 0 3vw;
+    margin-bottom: 20px;
+    margin-top:0;
+}
+
+.sponsorRowContainer {
+    display: flex;
+    column-gap: 3.5vw;
+    height: 7vh;
     margin-bottom: 3vh;
+    margin-top: 0;
 }
 
 .sponsorContainer {
@@ -88,7 +103,12 @@
 }
 
 .sponsorTitle {
+    color: rgb(0, 0, 0);
+    font-family: Cambria;
     text-align: center;
     font-size: 4.5vw;
     padding: 1.2vh 0;
+    font-weight:700;
+    letter-spacing: 4.5px;
+    margin-bottom: 3vh;
 }

@@ -5,11 +5,16 @@ import Logo from "../Logo/Logo"
 import { ThemeContext } from "../../App"
 import { useContext } from "react"
 import homeVideo from "../../gallery/videos/homeVideo.mp4"
-import sponsor1 from "../../gallery/sponsors/1.jpeg"
-import sponsor2 from "../../gallery/sponsors/2.jpeg"
-import sponsor3 from "../../gallery/sponsors/3.jpeg"
-import sponsor4 from "../../gallery/sponsors/4.jpeg"
-import sponsor5 from "../../gallery/sponsors/5.jpeg"
+import sponsor1 from "../../gallery/sponsors/UNESCOlogo.png"
+import sponsor2 from "../../gallery/sponsors/FORESTElogo.png"
+import sponsor3 from "../../gallery/sponsors/BOMBAlogo.png"
+import sponsor4 from "../../gallery/sponsors/REDBULLlogo.png"
+import sponsor5 from "../../gallery/sponsors/PIONEERlogo.png"
+import sponsor6 from "../../gallery/sponsors/NORTHFACElogo.png"
+import sponsor7 from "../../gallery/sponsors/LIDLlogo.png"
+import sponsor8 from "../../gallery/sponsors/KONGSTRONGlogo.png"
+import sponsor9 from "../../gallery/sponsors/GINlogo.png"
+import sponsor10 from "../../gallery/sponsors/UNIBOlogo.png"
 
 
 export default function Home() {
@@ -21,7 +26,7 @@ export default function Home() {
             <Logo></Logo>
             <div className="titleContainer">
                 <div className="mainTitle" style={{color: darkMode ? "white" : "black"}}>
-                    The Villaneta
+                    THE VILLANETA
                 </div>
                 <div className="subtitle" style={{color: darkMode ? "white" : "black"}}>
                     Join our community
@@ -43,9 +48,9 @@ export default function Home() {
             </div>   
 
             <div className="sponsorTitle" style={{color: darkMode ? "white" : "black"}}>
-                Local Partners
+                LOCAL PARTNERS
             </div>
-            <div className="sponsorRowContainer">
+            <div className="partnerRowContainer">
                 <div className="sponsorContainer">
                     <img className="sponsorImage" src={sponsor1} alt="example"></img>
                 </div>
@@ -60,27 +65,27 @@ export default function Home() {
                 </div>
                 <div className="sponsorContainer">
                     <img className="sponsorImage" src={sponsor5} alt="example"></img>
+                </div>
+                <div className="sponsorContainer">
+                    <img className="sponsorImage" src={sponsor6} alt="example"></img>
                 </div>
             </div> 
 
             <div className="sponsorTitle" style={{color: darkMode ? "white" : "black"}}>
-                Official Partners
+                OFFICIAL SPONSORS
             </div>
             <div className="sponsorRowContainer">
                 <div className="sponsorContainer">
-                    <img className="sponsorImage" src={sponsor1} alt="example"></img>
+                    <img className="sponsorImage" src={sponsor7} alt="example"></img>
                 </div>
                 <div className="sponsorContainer">
-                    <img className="sponsorImage" src={sponsor2} alt="example"></img>
+                    <img className="sponsorImage" src={sponsor8} alt="example"></img>
                 </div>
                 <div className="sponsorContainer">
-                    <img className="sponsorImage" src={sponsor3} alt="example"></img>
+                    <img className="sponsorImage" src={sponsor9} alt="example"></img>
                 </div>
                 <div className="sponsorContainer">
-                    <img className="sponsorImage" src={sponsor4} alt="example"></img>
-                </div>
-                <div className="sponsorContainer">
-                    <img className="sponsorImage" src={sponsor5} alt="example"></img>
+                    <img className="sponsorImage" src={sponsor10} alt="example"></img>
                 </div>
             </div> 
         </>
