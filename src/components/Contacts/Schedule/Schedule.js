@@ -51,6 +51,14 @@ export default function Schedule() {
                 </div>
                 <div className="scheduleElement">
                     <div className="scheduleTime" style={{color: darkMode ? "white" : "black"}}>
+                        16:00
+                    </div>
+                    <div className="scheduleEvent" style={{color: darkMode ? "white" : "black"}}>
+                        End of trekking
+                    </div>
+                </div>
+                <div className="scheduleElement">
+                    <div className="scheduleTime" style={{color: darkMode ? "white" : "black"}}>
                         18:00
                     </div>
                     <div className="scheduleEvent" style={{color: darkMode ? "white" : "black"}}>
@@ -75,15 +83,15 @@ export default function Schedule() {
                 </div>
                 <div className="scheduleElement">
                     <div className="scheduleTime" style={{color: darkMode ? "white" : "black"}}>
-                        00:00
+                        00:00 - 01:30
                     </div>
                     <div className="scheduleEvent" style={{color: darkMode ? "white" : "black"}}>
-                        Start of Villaneta disco party. DJ set by Dzeta (commercial – tech house – EDM)
+                        Villaneta disco party. DJ set by Dzeta (commercial – tech house – EDM)
                     </div>
                 </div>
                 <div className="scheduleElement">
                     <div className="scheduleTime" style={{color: darkMode ? "white" : "black"}}>
-                        02:00
+                        02:00 - 03:00
                     </div>
                     <div className="scheduleEvent" style={{color: darkMode ? "white" : "black"}}>
                     Boiler room after party by Dzeta (Commercial Big Room House – Techno – Hardstyle)
@@ -91,10 +99,18 @@ export default function Schedule() {
                 </div>
                 <div className="scheduleElement">
                     <div className="scheduleTime" style={{color: darkMode ? "white" : "black"}}>
-                        8:30
+                        10:30
                     </div>
                     <div className="scheduleEvent" style={{color: darkMode ? "white" : "black"}}>
                         Breakfast
+                    </div>
+                </div>
+                <div className="scheduleElement">
+                    <div className="scheduleTime" style={{color: darkMode ? "white" : "black"}}>
+                        11:00 - 12:30
+                    </div>
+                    <div className="scheduleEvent" style={{color: darkMode ? "white" : "black"}}>
+                        Cleaning (compulsory)
                     </div>
                 </div>
                 <div className="scheduleElement">

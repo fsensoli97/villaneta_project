@@ -17,13 +17,13 @@ export default function Location() {
                     Villaneta location
                 </div>
             </div>
-            <Timer timerText={'To be revealed in:'} dueDate={'10/20/2023'}></Timer>
+            <Timer timerText={'To be revealed in:'} dueDate={'11/03/2023'}></Timer>
             <div className="mapsContainer">
                 <div className="mapsTitle" style={{backgroundColor: darkMode ? "black" : "white"}}></div>
                 <iframe 
                     className="mapsLocation"
                     title="mapsLocation" 
-                    src="https://www.google.com/maps/d/embed?mid=1MIHx-2EGniHXdeOKOxef6ULf7y_Vag4&ehbc=2E312F"
+                    src="https://www.google.com/maps/d/u/0/embed?mid=1kybEMdOLrI1xcsYcCuzed2KQpFN0MaY&ehbc=2E312F" 
                     width="600"
                     height="400"
                     allowfullscreen=""
