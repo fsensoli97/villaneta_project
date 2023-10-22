@@ -16,12 +16,12 @@ function App() {
     <ThemeContext.Provider value={darkMode}>
       <BrowserRouter>
         <Routes>
-          <Route path="/villaneta_project/" element={<Home></Home>}></Route>
-          <Route path="/villaneta_project/location" element={<Location></Location>}></Route>
-          <Route path="/villaneta_project/schedule" element={<Schedule></Schedule>}></Route>
-          <Route path="/villaneta_project/gallery" element={<PreviousEditions></PreviousEditions>}></Route>
-          <Route path="/villaneta_project/contacts" element={<Contacts></Contacts>}></Route>
-          <Route path="/villaneta_project/settings" element={<Settings setDarkMode={setDarkMode}></Settings>}></Route>
+          <Route path="/" element={<Home></Home>}></Route>
+          <Route path="/location" element={<Location></Location>}></Route>
+          <Route path="/schedule" element={<Schedule></Schedule>}></Route>
+          <Route path="/gallery" element={<PreviousEditions></PreviousEditions>}></Route>
+          <Route path="/contacts" element={<Contacts></Contacts>}></Route>
+          <Route path="/settings" element={<Settings setDarkMode={setDarkMode}></Settings>}></Route>
         </Routes>
       </BrowserRouter>
     </ThemeContext.Provider>
