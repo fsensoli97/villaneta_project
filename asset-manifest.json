@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/villaneta_project/static/css/main.983b9b30.css",
-    "main.js": "/villaneta_project/static/js/main.b0781eb4.js",
+    "main.css": "/villaneta_project/static/css/main.899eec62.css",
+    "main.js": "/villaneta_project/static/js/main.fdea2ea2.js",
     "static/js/27.2b48c793.chunk.js": "/villaneta_project/static/js/27.2b48c793.chunk.js",
+    "static/media/homeVideo.mp4": "/villaneta_project/static/media/homeVideo.529e04f716d7353bc2a9.mp4",
     "static/media/WhatsApp Image 2023-09-24 at 23.53.02 (4).jpeg": "/villaneta_project/static/media/WhatsApp Image 2023-09-24 at 23.53.02 (4).7efa96a296af56f17ed5.jpeg",
     "static/media/WhatsApp Image 2023-09-24 at 23.53.02 (2).jpeg": "/villaneta_project/static/media/WhatsApp Image 2023-09-24 at 23.53.02 (2).cfff80eac0f23fb45a51.jpeg",
     "static/media/WhatsApp Image 2023-09-24 at 23.53.02 (9).jpeg": "/villaneta_project/static/media/WhatsApp Image 2023-09-24 at 23.53.02 (9).a148b84ec11e957b0622.jpeg",
@@ -19,6 +20,7 @@
     "static/media/WhatsApp Image 2023-09-24 at 23.55.09 (2).jpeg": "/villaneta_project/static/media/WhatsApp Image 2023-09-24 at 23.55.09 (2).eaddb834fb0af2305bf0.jpeg",
     "static/media/WhatsApp Image 2023-09-24 at 23.53.03 (2).jpeg": "/villaneta_project/static/media/WhatsApp Image 2023-09-24 at 23.53.03 (2).56dafe64e2a5f0bac04a.jpeg",
     "static/media/WhatsApp Image 2023-09-24 at 23.55.07 (1).jpeg": "/villaneta_project/static/media/WhatsApp Image 2023-09-24 at 23.55.07 (1).247f3ba858eb4e7d6ae6.jpeg",
+    "static/media/UNIBOlogo.png": "/villaneta_project/static/media/UNIBOlogo.59d7e80ee186e1ad6f84.png",
     "static/media/WhatsApp Image 2023-09-24 at 23.55.14 (5).jpeg": "/villaneta_project/static/media/WhatsApp Image 2023-09-24 at 23.55.14 (5).c3c4be1e2b40687fe256.jpeg",
     "static/media/WhatsApp Image 2023-09-24 at 23.55.08 (1).jpeg": "/villaneta_project/static/media/WhatsApp Image 2023-09-24 at 23.55.08 (1).4e346952fba0f177e7ca.jpeg",
     "static/media/WhatsApp Image 2023-09-24 at 23.55.07 (5).jpeg": "/villaneta_project/static/media/WhatsApp Image 2023-09-24 at 23.55.07 (5).9a6a6fd9438528286097.jpeg",
@@ -26,6 +28,7 @@
     "static/media/WhatsApp Image 2023-09-24 at 23.55.08 (3).jpeg": "/villaneta_project/static/media/WhatsApp Image 2023-09-24 at 23.55.08 (3).cc52a3fe121fd729423c.jpeg",
     "static/media/WhatsApp Image 2023-09-24 at 23.55.09 (3).jpeg": "/villaneta_project/static/media/WhatsApp Image 2023-09-24 at 23.55.09 (3).8ed816f546516c698846.jpeg",
     "static/media/WhatsApp Image 2023-09-24 at 23.55.09.jpeg": "/villaneta_project/static/media/WhatsApp Image 2023-09-24 at 23.55.09.76d18221999bb71fcbeb.jpeg",
+    "static/media/KONGSTRONGlogo.png": "/villaneta_project/static/media/KONGSTRONGlogo.36301f3e12728b5c6b25.png",
     "static/media/WhatsApp Image 2023-09-24 at 23.55.13 (9).jpeg": "/villaneta_project/static/media/WhatsApp Image 2023-09-24 at 23.55.13 (9).485a105c2ade10b4cf97.jpeg",
     "static/media/WhatsApp Image 2023-09-24 at 23.55.08.jpeg": "/villaneta_project/static/media/WhatsApp Image 2023-09-24 at 23.55.08.98db3ea35bd074f47b96.jpeg",
     "static/media/WhatsApp Image 2023-09-24 at 23.55.14 (6).jpeg": "/villaneta_project/static/media/WhatsApp Image 2023-09-24 at 23.55.14 (6).facd8973ca099bf729bb.jpeg",
@@ -90,16 +93,24 @@
     "static/media/WhatsApp Image 2023-09-24 at 23.55.13 (11).jpeg": "/villaneta_project/static/media/WhatsApp Image 2023-09-24 at 23.55.13 (11).c1636d05878fad08e4b7.jpeg",
     "static/media/WhatsApp Image 2023-09-24 at 23.55.11 (3).jpeg": "/villaneta_project/static/media/WhatsApp Image 2023-09-24 at 23.55.11 (3).e477c1dfe8fe483cc8e5.jpeg",
     "static/media/WhatsApp Image 2023-09-24 at 23.55.10 (5).jpeg": "/villaneta_project/static/media/WhatsApp Image 2023-09-24 at 23.55.10 (5).306c065f263599c2fdd4.jpeg",
+    "static/media/BOMBAlogo.png": "/villaneta_project/static/media/BOMBAlogo.a12c00a517d307f089f8.png",
+    "static/media/GINlogo.png": "/villaneta_project/static/media/GINlogo.e39097a0a960ebb8bcf0.png",
     "static/media/WhatsApp Image 2023-09-24 at 23.55.13 (2).jpeg": "/villaneta_project/static/media/WhatsApp Image 2023-09-24 at 23.55.13 (2).e615be02769558e06d02.jpeg",
     "static/media/WhatsApp Image 2023-09-24 at 23.55.12 (6).jpeg": "/villaneta_project/static/media/WhatsApp Image 2023-09-24 at 23.55.12 (6).c95366c25e6378fc6003.jpeg",
+    "static/media/PIONEERlogo.png": "/villaneta_project/static/media/PIONEERlogo.d0364cb7211fb91d6a50.png",
     "static/media/WhatsApp Image 2023-09-24 at 23.55.12 (2).jpeg": "/villaneta_project/static/media/WhatsApp Image 2023-09-24 at 23.55.12 (2).c86226f54b0f04c53750.jpeg",
     "static/media/WhatsApp Image 2023-09-24 at 23.55.11 (8).jpeg": "/villaneta_project/static/media/WhatsApp Image 2023-09-24 at 23.55.11 (8).642d722079e95d31e26f.jpeg",
+    "static/media/REDBULLlogo.png": "/villaneta_project/static/media/REDBULLlogo.45100f444b8cb2bea5d9.png",
     "static/media/villanetaLogo.png": "/villaneta_project/static/media/villanetaLogo.a22847c06d75a2e101ec.png",
     "static/media/WhatsApp Image 2023-09-24 at 23.55.13 (3).jpeg": "/villaneta_project/static/media/WhatsApp Image 2023-09-24 at 23.55.13 (3).1a791ff8b79b4ede6c4a.jpeg",
+    "static/media/LIDLlogo.png": "/villaneta_project/static/media/LIDLlogo.257c4197c64ae9ce84e4.png",
+    "static/media/FORESTElogo.png": "/villaneta_project/static/media/FORESTElogo.421332d4a18bf805ea1d.png",
+    "static/media/NORTHFACElogo.png": "/villaneta_project/static/media/NORTHFACElogo.a0935416dc529b1dfd37.png",
+    "static/media/UNESCOlogo.png": "/villaneta_project/static/media/UNESCOlogo.8694a14bef21269075ce.png",
     "index.html": "/villaneta_project/index.html"
   },
   "entrypoints": [
-    "static/css/main.983b9b30.css",
-    "static/js/main.b0781eb4.js"
+    "static/css/main.899eec62.css",
+    "static/js/main.fdea2ea2.js"
   ]
 }
