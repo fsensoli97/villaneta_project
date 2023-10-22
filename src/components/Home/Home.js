@@ -77,7 +77,7 @@ export default function Home() {
             </div>
                
 
-            <div className="sponsorTitle" style={{color: darkMode ? "white" : "black"}}>
+            <div className="partnerTitle" style={{color: darkMode ? "white" : "black"}}>
                 LOCAL PARTNERS
             </div>
             <div className="partnerRowContainer">

@@ -1,5 +1,4 @@
 .titleContainer {
-    font-family: Cambria;
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -86,6 +85,7 @@
     height: 60vh;
     width: 90%;
     margin-top: -7vh;
+    margin-bottom: 3vh;
 }
 
 .homeVideo {
@@ -106,6 +106,7 @@
     column-gap: 3.5vw;
     height: 7vh;
     margin-bottom: 3vh;
+    padding: 4vh 0;
 }
 
 .sponsorContainer {
@@ -118,12 +119,17 @@
     object-fit: contain;
 }
 
-.sponsorTitle {
+.sponsorTitle, .partnerTitle {
     color: rgb(0, 0, 0);
     font-family: Cambria;
     text-align: center;
     font-size: 4.5vw;
-    padding: 5vh 0;
+    padding: 2vh 0;
     font-weight:700;
     letter-spacing: 4.5px;
+    border: solid 1px gray;
+}
+
+.partnerTitle {
+    margin-bottom: 1vh;
 }
