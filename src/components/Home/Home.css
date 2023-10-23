@@ -13,15 +13,12 @@
     color: white;
     font-size: 7vw;
     font-weight: bold;
-    font-family: Cambria;
-    text-shadow: 1px 1px 2px black;
 }
 
 .subtitle {
     color: white;
     font-size: 5vw;
     font-weight: bold;
-    font-family: Cambria;
 }
 
 .animationContainer {
@@ -121,7 +118,6 @@
 
 .sponsorTitle, .partnerTitle {
     color: rgb(0, 0, 0);
-    font-family: Cambria;
     text-align: center;
     font-size: 4.5vw;
     padding: 2vh 0;
