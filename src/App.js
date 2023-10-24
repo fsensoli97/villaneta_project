@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './components/Home/Home';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Location from './components/Location/Location';
 import Contacts from './components/Contacts/Contacts';
 import PreviousEditions from './components/PreviousEditions/PreviousEditions';
@@ -14,7 +14,7 @@ function App() {
 
   return (
     <ThemeContext.Provider value={darkMode}>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Home></Home>}></Route>
           <Route path="/location" element={<Location></Location>}></Route>
@@ -24,7 +24,7 @@ function App() {
           <Route path="/settings" element={<Settings setDarkMode={setDarkMode}></Settings>}></Route>
           <Route path="*" element={<Home></Home>}></Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </ThemeContext.Provider>
   );
 }
