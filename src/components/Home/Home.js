@@ -20,7 +20,7 @@ import sponsor10 from "../../gallery/sponsors/UNIBOlogo.png"
 export default function Home() {
     const [timer, setTimer] = useState([0, 0, 0, 0]);
     const darkMode = useContext(ThemeContext);
-    const timerText = "Next event starts in:"
+    const timerText = "NEXT EVENT STARTS IN:"
     const dueDate = "11/04/2023";
 
     useEffect(() => {
