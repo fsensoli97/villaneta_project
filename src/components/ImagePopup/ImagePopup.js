@@ -22,8 +22,8 @@ export default function ImagePopup({image, showPopup, previous, next}) {
         const distance = touchStart - touchEnd
         const isLeftSwipe = distance > minSwipeDistance
         const isRightSwipe = distance < -minSwipeDistance
-        if (isLeftSwipe) previous();
-        if (isRightSwipe) next();
+        if (isLeftSwipe) next();
+        if (isRightSwipe) previous();
     }
 
     return(
