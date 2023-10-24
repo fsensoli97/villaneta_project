@@ -22,6 +22,7 @@ function App() {
           <Route path="/gallery" element={<PreviousEditions></PreviousEditions>}></Route>
           <Route path="/contacts" element={<Contacts></Contacts>}></Route>
           <Route path="/settings" element={<Settings setDarkMode={setDarkMode}></Settings>}></Route>
+          <Route path="*" element={<Home></Home>}></Route>
         </Routes>
       </BrowserRouter>
     </ThemeContext.Provider>
