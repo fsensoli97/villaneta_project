@@ -33,7 +33,7 @@ export default function Contacts() {
                     <a href="tel:123456789"><FontAwesomeIcon icon={faPhone} size="2x"></FontAwesomeIcon></a>
                     </div>
                     <div className="contactValue" style={{color: darkMode ? "white" : "black"}}>
-                        123456789
+                        to be updated
                     </div>
                 </div>
                 <div className="contactElement">
@@ -48,9 +48,9 @@ export default function Contacts() {
                     <div className="contactType" style={{color: darkMode ? "white" : "black"}}>
                     <a target="_blank" rel='noopener noreferrer' href="https://www.facebook.com/"><FontAwesomeIcon icon={faInstagram} size="2x"></FontAwesomeIcon></a>
                     </div>
-                    <div className="contactValue" style={{color: darkMode ? "white" : "black"}}>
-                        @Villaneta
-                    </div>
+                    <a className="contactValue" style={{color: darkMode ? "white" : "black"}} href="https://www.instagram.com/villaneta.official/" target="_blank">
+                        @Villaneta.official
+                    </a>
                 </div>
                 <div className="contactElement">
                     <div className="contactType" style={{color: darkMode ? "white" : "black"}}>
