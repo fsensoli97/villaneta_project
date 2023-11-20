@@ -48,7 +48,7 @@ export default function Contacts() {
                     <div className="contactType" style={{color: darkMode ? "white" : "black"}}>
                     <a target="_blank" rel='noopener noreferrer' href="https://www.facebook.com/"><FontAwesomeIcon icon={faInstagram} size="2x"></FontAwesomeIcon></a>
                     </div>
-                    <a className="contactValue" style={{color: darkMode ? "white" : "black"}} href="https://www.instagram.com/villaneta.official/" target="_blank">
+                    <a className="contactValue" style={{color: darkMode ? "white" : "black"}} href="https://www.instagram.com/villaneta.official/" target="_blank" rel="noreferrer">
                         @Villaneta.official
                     </a>
                 </div>

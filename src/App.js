@@ -7,10 +7,22 @@ import PreviousEditions from './components/PreviousEditions/PreviousEditions';
 import Schedule from './components/Contacts/Schedule/Schedule';
 import Settings from './components/Settings/Settings';
 import { createContext, useState } from 'react';
+import Login from './components/Login/Login';
 
 function App() {
+  const [token, setToken] = useState(sessionStorage.getItem("token"));
   const [darkMode, setDarkMode] = useState(JSON.parse(localStorage.getItem("darkMode")));
   document.body.style.backgroundColor = darkMode ? "rgb(39, 39, 39)" : "white";
+
+  if (!token) {
+    return (<ThemeContext.Provider value={darkMode}>
+      <HashRouter>
+        <Routes>
+          <Route path="/" element={<Login setToken={setToken}></Login>}></Route>
+        </Routes>
+      </HashRouter>
+    </ThemeContext.Provider>)
+  }
 
   return (
     <ThemeContext.Provider value={darkMode}>
