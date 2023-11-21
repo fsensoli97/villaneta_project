@@ -10,6 +10,138 @@ export default function Login({setToken}) {
     const [displayMessage, setDisplayMessage] = useState(false);
     const darkMode = useContext(ThemeContext);
 
+    const usernames = [
+        "fsensoli",
+        "dzamagni",
+        "cproietti",
+        "afonti",
+        "abenzoni",
+        "aluca",
+        "aseveri",
+        "asiroli",
+        "adelcampo",
+        "amastrilli",
+        "amasurquijo",
+        "arighi",
+        "darlotti",
+        "tbaldani",
+        "bbacchetti",
+        "bportela",
+        "cpasserini",
+        "cpanariello",
+        "cperrina",
+        "cguerra",
+        "cfagioli",
+        "driccio",
+        "dcalisi",
+        "esavini",
+        "econtadini",
+        "emedri",
+        "fzignani",
+        "fsuzzi",
+        "fnovaga",
+        "gsilvestri",
+        "gcandia",
+        "gscavolini",
+        "gvalentino",
+        "hdruenne",
+        "inimuini",
+        "jcollombon",
+        "kerim",
+        "eliverani",
+        "lfoschi",
+        "lvergoni",
+        "lgalli",
+        "lpricolo",
+        "fvanti",
+        "mgianessi",
+        "marshafhulla",
+        "ececchetti",
+        "nspazzoli",
+        "ademasi",
+        "nulivucci",
+        "eberr",
+        "lzamagni",
+        "sdalesio",
+        "screatore",
+        "ssponda",
+        "sstankov",
+        "augolini",
+        "vdipinto",
+        "avolpini",
+        "mbelletti",
+        "avitali",
+        "rgiordani",
+        "amanzelli",
+        "dbrandini"
+    ];
+
+    const passwords = [
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "scopacilemamme",
+        "fiozisonfire",
+        "burino",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "marshafhulla",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "mrbicipite",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "figabianca",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "fiozisonfire",
+        "ilpuffoinnamorato"
+    ];
+
     function resetInputs() {
         setUsername('');
         setPassword('');
@@ -19,15 +151,17 @@ export default function Login({setToken}) {
     }
 
     function loginHandle() {
-        if (username === "villa" && password === "banks") {
-            sessionStorage.setItem("token", "true");
-            setToken(true);
+        for (let i = 0; i < usernames.length; i++) {
+            if (username === usernames[i] && password === passwords[i]) {
+                sessionStorage.setItem("token", "true");
+                setToken(true);
+                return;
+            }
         }
-        else {
-            resetInputs();
-            setDisplayMessage(true);
-            setTimeout(() => setDisplayMessage(false), 3000);
-        }
+
+        resetInputs();
+        setDisplayMessage(true);
+        setTimeout(() => setDisplayMessage(false), 3000);
     }
 
     return(
