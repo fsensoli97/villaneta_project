@@ -174,12 +174,12 @@ export default function Login({setToken}) {
             </div>
 
             <div className="loginContainer">
-                <input className="loginInput" type="text" placeholder="username" onChange={(e) => setUsername(e.target.value)} style={{color: darkMode ? "white" : "black"}}></input>
-                <input className="loginInput" type="password" placeholder="password" onChange={(e) => setPassword(e.target.value)} style={{color: darkMode ? "white" : "black"}}></input>
-                <button className="loginButton" onClick={loginHandle} style={{color: darkMode ? "white" : "black"}}>Login</button>       
+                <input className="loginInput" type="text" placeholder="username" onChange={(e) => setUsername(e.target.value)}></input>
+                <input className="loginInput" type="password" placeholder="password" onChange={(e) => setPassword(e.target.value)}></input>
+                <button className="loginButton" onClick={loginHandle}>Login</button>       
             </div>
 
-            {displayMessage ? <div className="loginInput">Invalid credentials.</div> : <></>}
+            {displayMessage ? <div className="credentialMessage">Invalid credentials.</div> : <></>}
         </>
     );
 }

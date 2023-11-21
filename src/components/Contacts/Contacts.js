@@ -24,7 +24,7 @@ export default function Contacts() {
                     <div className="contactType" style={{color: darkMode ? "white" : "black"}}>
                     <FontAwesomeIcon icon={faMailBulk} size="2x" onClick={() => window.location = 'mailto:villanetagroup@gmail.com'}></FontAwesomeIcon>
                     </div>
-                    <div className="contactValue" style={{color: darkMode ? "white" : "black"}}>
+                    <div className="contactValue" style={{color: darkMode ? "white" : "black"}} onClick={() => window.location = 'mailto:villanetagroup@gmail.com'}>
                         villanetagroup@gmail.com
                     </div>
                 </div>
@@ -46,7 +46,7 @@ export default function Contacts() {
                 </div>
                 <div className="contactElement">
                     <div className="contactType" style={{color: darkMode ? "white" : "black"}}>
-                    <a target="_blank" rel='noopener noreferrer' href="https://www.facebook.com/"><FontAwesomeIcon icon={faInstagram} size="2x"></FontAwesomeIcon></a>
+                    <a target="_blank" rel='noopener noreferrer' href="https://www.instagram.com/villaneta.official/"><FontAwesomeIcon icon={faInstagram} size="2x"></FontAwesomeIcon></a>
                     </div>
                     <a className="contactValue" style={{color: darkMode ? "white" : "black"}} href="https://www.instagram.com/villaneta.official/" target="_blank" rel="noreferrer">
                         @Villaneta.official

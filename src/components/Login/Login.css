@@ -25,3 +25,10 @@
     font-size: small;
     text-decoration: underline;
 }
+
+.credentialMessage {
+    text-align: center;
+    padding: 1vh 0;
+    background-color: transparent;
+    color: red;
+}
