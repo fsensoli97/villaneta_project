@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5d572d62.css",
-    "main.js": "/static/js/main.8fe86a97.js",
+    "main.css": "/static/css/main.8bccc219.css",
+    "main.js": "/static/js/main.b70200ed.js",
     "static/js/27.2b48c793.chunk.js": "/static/js/27.2b48c793.chunk.js",
     "static/media/aftermovie.mp4": "/static/media/aftermovie.0e91f18b3e757658f94f.mp4",
     "static/media/WhatsApp Image 2023-09-24 at 23.53.02 (4).jpeg": "/static/media/WhatsApp Image 2023-09-24 at 23.53.02 (4).7efa96a296af56f17ed5.jpeg",
@@ -77,6 +77,7 @@
     "static/media/IMG-20231105-WA0138.jpg": "/static/media/IMG-20231105-WA0138.35a50d01a64f68f36540.jpg",
     "static/media/PHOTO-2022-04-16-18-59-14.jpg": "/static/media/PHOTO-2022-04-16-18-59-14.688d2cd5fda60fa02d7a.jpg",
     "static/media/IMG-20231106-WA0029.jpg": "/static/media/IMG-20231106-WA0029.cd45ba2f46969ee97984.jpg",
+    "static/media/conero.jpg": "/static/media/conero.7099abd369c30867b076.jpg",
     "static/media/IMG-20231106-WA0032.jpg": "/static/media/IMG-20231106-WA0032.16a0b4bc6abbf3524701.jpg",
     "static/media/IMG-20231105-WA0294.jpg": "/static/media/IMG-20231105-WA0294.af48b48e4bc971b38153.jpg",
     "static/media/IMG-20231105-WA0251.jpg": "/static/media/IMG-20231105-WA0251.c6f8bcaca6e09b0ff6e0.jpg",
@@ -434,14 +435,18 @@
     "static/media/PHOTO-2022-04-17-11-48-53.jpg": "/static/media/PHOTO-2022-04-17-11-48-53.2bd23574954a72da0c37.jpg",
     "static/media/IMG-20231105-WA0032.jpg": "/static/media/IMG-20231105-WA0032.f601f128817bed9e6c4f.jpg",
     "static/media/PHOTO-2023-08-16-21-29-31.jpg": "/static/media/PHOTO-2023-08-16-21-29-31.1eb5265ba00100b32836.jpg",
+    "static/media/beach.jpg": "/static/media/beach.6c51b58bfb6a69b1b432.jpg",
     "static/media/IMG-20231105-WA0031.jpg": "/static/media/IMG-20231105-WA0031.6010e030156b029bde26.jpg",
+    "static/media/sirolo.jpg": "/static/media/sirolo.3b2726c7ed4edd76000a.jpg",
     "static/media/FORESTElogo.png": "/static/media/FORESTElogo.421332d4a18bf805ea1d.png",
     "static/media/NORTHFACElogo.png": "/static/media/NORTHFACElogo.a0935416dc529b1dfd37.png",
+    "static/media/sunset.jpg": "/static/media/sunset.034bc2cf1c0eca9d9a72.jpg",
     "static/media/UNESCOlogo.png": "/static/media/UNESCOlogo.8694a14bef21269075ce.png",
+    "static/media/dj.jpg": "/static/media/dj.4f3648946d99fb2af86e.jpg",
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.5d572d62.css",
-    "static/js/main.8fe86a97.js"
+    "static/css/main.8bccc219.css",
+    "static/js/main.b70200ed.js"
   ]
 }
