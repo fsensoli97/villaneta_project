@@ -20,6 +20,11 @@
     color: white;
     font-size: 5vw;
     font-weight: bold;
+    text-align: center;
+    font-size: medium;
+    padding-bottom: 2vh;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 .animationContainer {

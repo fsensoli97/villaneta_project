@@ -3,7 +3,7 @@ import HamburgerMenu from "../HamburgerMenu/HamburgerMenu"
 import Logo from "../Logo/Logo"
 import { ThemeContext } from "../../App"
 import { useContext } from "react"
-//import { useState, useEffect } from "react"
+import { useState, useEffect } from "react"
 import homeVideo from "../../gallery/videos/aftermovie.mp4"
 import sponsor1 from "../../gallery/sponsors/UNESCOlogo.png"
 import sponsor2 from "../../gallery/sponsors/FORESTElogo.png"
@@ -18,12 +18,12 @@ import sponsor10 from "../../gallery/sponsors/UNIBOlogo.png"
 
 
 export default function Home() {
-    //const [timer, setTimer] = useState([0, 0, 0, 0]);
+    const [timer, setTimer] = useState([0, 0, 0, 0]);
     const darkMode = useContext(ThemeContext);
-    //const timerText = "NEXT EVENT STARTS IN:"
-    //const dueDate = "11/04/2023";
+    const timerText = "NEXT EVENT STARTS IN:"
+    const dueDate = "05/31/2024";
 
-    /*
+    
     useEffect(() => {
         setInterval(() => {
             const now = new Date();
@@ -38,7 +38,7 @@ export default function Home() {
             setTimer([days, hours, minutes, seconds]);
         }, 1000);
     }, [dueDate]);
-    */
+    
 
     return (
         <>
@@ -49,7 +49,7 @@ export default function Home() {
                     THE VILLANETA
                 </div>
                 <div className="subtitle" style={{color: darkMode ? "white" : "black"}}>
-                    Join our community
+                    Thank you {sessionStorage.getItem("user")} for joining our community!
                 </div>
             </div>
             
@@ -64,7 +64,7 @@ export default function Home() {
             
             <div className="homeVideoContainer">
                 <div className="homeTimerContainer">
-                    {/*
+                    
                     <div className="timerTitle">{timerText}</div>
                     <div>
                         { String(timer[0]).padStart(2, '0') + "d " } 
@@ -72,7 +72,7 @@ export default function Home() {
                         { String(timer[2]).padStart(2, '0') + "m "} 
                         { String(timer[3]).padStart(2, '0') + "s "} 
                     </div>
-                    */}
+                    
                 </div>
 
                 <video className="homeVideo" autoPlay muted loop controls>

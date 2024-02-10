@@ -3,6 +3,11 @@ import Logo from "../../Logo/Logo";
 import './Schedule.css'
 import { useContext } from "react";
 import { ThemeContext } from "../../../App";
+import conero from '../../../gallery/schedule/conero.jpg'
+import sunset from '../../../gallery/schedule/sunset.jpg'
+import dinner from '../../../gallery/schedule/sirolo.jpg'
+import beach from '../../../gallery/schedule/beach.jpg'
+import dj from '../../../gallery/schedule/dj.jpg'
 
 export default function Schedule() {
     const darkMode = useContext(ThemeContext);
@@ -17,28 +22,32 @@ export default function Schedule() {
                 </div>
             </div>
             <div className="scheduleContainer">
+                <div className="scheduleDay">FRIDAY</div>
                 <div className="scheduleElement">
                     <div className="scheduleTime" style={{color: darkMode ? "white" : "black"}}>
-                        9:30
+                        8:30
                     </div>
                     <div className="scheduleEvent" style={{color: darkMode ? "white" : "black"}}>
-                        Gathering in Cesena/Forlimpopoli
+                        Gathering in Cesena
                     </div>
                 </div>
                 <div className="scheduleElement">
                     <div className="scheduleTime" style={{color: darkMode ? "white" : "black"}}>
-                        11:00
+                        10:00
                     </div>
                     <div className="scheduleEvent" style={{color: darkMode ? "white" : "black"}}>
-                        Arrival to the designed mountain shelter
+                        Arrival to Conero
+                    </div>
+                    <div className="schedulePicContainer">
+                        <img className="schedulePic" src={conero} alt="conero"></img>
                     </div>
                 </div>
                 <div className="scheduleElement">
                     <div className="scheduleTime" style={{color: darkMode ? "white" : "black"}}>
-                        11:30
+                        10:30
                     </div>
                     <div className="scheduleEvent" style={{color: darkMode ? "white" : "black"}}>
-                        Start of the trekking in Parco Nazionale Foreste Casentinesi
+                        Walk to the designated beach
                     </div>
                 </div>
                 <div className="scheduleElement">
@@ -51,26 +60,13 @@ export default function Schedule() {
                 </div>
                 <div className="scheduleElement">
                     <div className="scheduleTime" style={{color: darkMode ? "white" : "black"}}>
-                        16:00
-                    </div>
-                    <div className="scheduleEvent" style={{color: darkMode ? "white" : "black"}}>
-                        End of trekking
-                    </div>
-                </div>
-                <div className="scheduleElement">
-                    <div className="scheduleTime" style={{color: darkMode ? "white" : "black"}}>
-                        18:00
-                    </div>
-                    <div className="scheduleEvent" style={{color: darkMode ? "white" : "black"}}>
-                        Start of Apero and sunset djset by DJ Chino (lounge, sunset commercial house music)
-                    </div>
-                </div>
-                <div className="scheduleElement">
-                    <div className="scheduleTime" style={{color: darkMode ? "white" : "black"}}>
                         20:00
                     </div>
                     <div className="scheduleEvent" style={{color: darkMode ? "white" : "black"}}>
-                        “Crescioni” dinner
+                        Dinner
+                    </div>
+                    <div className="schedulePicContainer">
+                        <img className="schedulePic" src={dinner} alt="conero"></img>
                     </div>
                 </div>
                 <div className="scheduleElement">
@@ -78,25 +74,52 @@ export default function Schedule() {
                         22:00
                     </div>
                     <div className="scheduleEvent" style={{color: darkMode ? "white" : "black"}}>
-                        Reggaeton pre party and Team games
+                        Games and chill
+                    </div>
+                </div>
+                <div className="scheduleDay">SATURDAY</div>
+                <div className="scheduleElement">
+                    <div className="scheduleTime" style={{color: darkMode ? "white" : "black"}}>
+                        9:30
+                    </div>
+                    <div className="scheduleEvent" style={{color: darkMode ? "white" : "black"}}>
+                        Beach time and fun activities
+                    </div>
+                    <div className="schedulePicContainer">
+                        <img className="schedulePic" src={beach} alt="conero"></img>
                     </div>
                 </div>
                 <div className="scheduleElement">
                     <div className="scheduleTime" style={{color: darkMode ? "white" : "black"}}>
-                        00:00 - 01:30
+                        19:30
                     </div>
                     <div className="scheduleEvent" style={{color: darkMode ? "white" : "black"}}>
-                        Villaneta disco party. DJ set by Dzeta (commercial – tech house – EDM)
+                        Sunset apero and DJ set on the beach (powered by DJ Chino)
+                    </div>
+                    <div className="schedulePicContainer">
+                        <img className="schedulePic" src={sunset} alt="conero"></img>
                     </div>
                 </div>
                 <div className="scheduleElement">
                     <div className="scheduleTime" style={{color: darkMode ? "white" : "black"}}>
-                        02:00 - 03:00
+                        22:00
                     </div>
                     <div className="scheduleEvent" style={{color: darkMode ? "white" : "black"}}>
-                    Boiler room after party by Dzeta (Commercial Big Room House – Techno – Hardstyle)
+                        Raeggeton pre-party and team games
                     </div>
                 </div>
+                <div className="scheduleElement">
+                    <div className="scheduleTime" style={{color: darkMode ? "white" : "black"}}>
+                        24:00
+                    </div>
+                    <div className="scheduleEvent" style={{color: darkMode ? "white" : "black"}}>
+                        Villaneta disco party (powered by DZeta)
+                    </div>
+                    <div className="schedulePicContainer">
+                        <img className="schedulePic" src={dj} alt="conero"></img>
+                    </div>
+                </div>
+                <div className="scheduleDay">SUNDAY</div>
                 <div className="scheduleElement">
                     <div className="scheduleTime" style={{color: darkMode ? "white" : "black"}}>
                         10:30

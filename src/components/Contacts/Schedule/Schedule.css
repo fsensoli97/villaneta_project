@@ -25,3 +25,16 @@
     color: white;
     font-size: 5vw;
 }
+
+.scheduleDay {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.schedulePicContainer {
+    width: 100%;
+}
+
+.schedulePic {
+    max-width: 100%;
+}
