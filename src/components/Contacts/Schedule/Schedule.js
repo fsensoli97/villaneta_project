@@ -22,7 +22,7 @@ export default function Schedule() {
                 </div>
             </div>
             <div className="scheduleContainer">
-                <div className="scheduleDay">FRIDAY</div>
+                <div className="scheduleDay" style={{color: darkMode ? "white" : "black"}}>FRIDAY</div>
                 <div className="scheduleElement">
                     <div className="scheduleTime" style={{color: darkMode ? "white" : "black"}}>
                         8:30
@@ -77,7 +77,7 @@ export default function Schedule() {
                         Games and chill
                     </div>
                 </div>
-                <div className="scheduleDay">SATURDAY</div>
+                <div className="scheduleDay" style={{color: darkMode ? "white" : "black"}}>SATURDAY</div>
                 <div className="scheduleElement">
                     <div className="scheduleTime" style={{color: darkMode ? "white" : "black"}}>
                         9:30
@@ -119,7 +119,7 @@ export default function Schedule() {
                         <img className="schedulePic" src={dj} alt="conero"></img>
                     </div>
                 </div>
-                <div className="scheduleDay">SUNDAY</div>
+                <div className="scheduleDay" style={{color: darkMode ? "white" : "black"}}>SUNDAY</div>
                 <div className="scheduleElement">
                     <div className="scheduleTime" style={{color: darkMode ? "white" : "black"}}>
                         10:30

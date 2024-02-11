@@ -23,7 +23,7 @@ export default function Location() {
                 <iframe 
                     className="mapsLocation"
                     title="mapsLocation" 
-                    src="https://www.google.com/maps/d/u/0/embed?mid=1kybEMdOLrI1xcsYcCuzed2KQpFN0MaY&ehbc=2E312F" 
+                    src="https://www.google.com/maps/d/u/0/embed?mid=1ylJzpy3q3_rpcsB0iqg_uYPCfgWAalY&ehbc=2E312F"
                     width="600"
                     height="400"
                     allowfullscreen=""

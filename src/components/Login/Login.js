@@ -33,7 +33,7 @@ export default function Login({setToken}) {
         "chia",
         "clara",
         "dani",
-        "dcalisi",
+        "domi",
         "edo",
         "elly",
         "elli",
